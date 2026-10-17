@@ -1,10 +1,15 @@
 # My Report
 
-技術レポートを GitHub Pages で公開するリポジトリです。
+調べた情報や考察を、分野ごとのHTMLレポートとして整理・公開するリポジトリです。OSS専用ではなく、今後さまざまなカテゴリを追加していきます。
 
-- OSSの解説記事は、このチャットで依頼されたときだけ手動追加します（自動定期生成なし）。
-- 記事のHTMLは `oss/YYYY-MM-DD-slug.html` に保存します。
-- 記事を追加したら `reports.json` の `reports` 配列にもメタデータを追加します。
-- `index.html` は `reports.json` を読み込み、公開記事へのリンクを一覧表示します。
-- `main` へのpushをきっかけに `.github/workflows/pages.yml` でGitHub Pagesへ公開します。
-- 初回のみ Settings → Pages → Build and deployment → Source を **GitHub Actions** に設定してください。
+## サイト構成
+
+- [トップページ](https://futa0104.github.io/my-report/)：カテゴリの一覧
+- [OSS](https://futa0104.github.io/my-report/oss/)：OSS解説記事の一覧
+- 各カテゴリの配下に個別レポートのHTMLを配置
+
+記事とカテゴリの一覧データは `reports.json` で管理しています。サイトはGitHub Pagesで公開します。
+
+## メンテナンス
+
+記事の追加・一覧更新・公開手順など、AIエージェント向けの詳細は [AGENTS.md](AGENTS.md) を参照してください。
