@@ -1,8 +1,16 @@
 {
+  "categories": [
+    {
+      "id": "oss",
+      "title": "OSS",
+      "path": "oss/",
+      "description": "OSSの概要・特徴・使いどころ・注目実装を紹介"
+    }
+  ],
   "reports": [
     {
       "date": "2026-10-17",
-      "category": "OSS",
+      "category": "oss",
       "title": "OSS #001 — SQLite",
       "path": "oss/2026-10-17-sqlite.html",
       "description": "組み込み型SQLデータベースの概要と、Pagerによるストレージ抽象化の設計。"
