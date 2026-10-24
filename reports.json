@@ -14,6 +14,13 @@
       "title": "OSS #001 — SQLite",
       "path": "oss/2026-10-17-sqlite.html",
       "description": "組み込み型SQLデータベースの概要と、Pagerによるストレージ抽象化の設計。"
+    },
+    {
+      "date": "2026-10-24",
+      "category": "oss",
+      "title": "OSS #002 — Git",
+      "path": "oss/2026-10-24-git.html",
+      "description": "分散型バージョン管理と、内容アドレス指定オブジェクトデータベースの設計。"
     }
   ]
 }
