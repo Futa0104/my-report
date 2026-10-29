@@ -21,6 +21,13 @@
       "title": "OSS #002 — Git",
       "path": "oss/2026-10-24-git.html",
       "description": "分散型バージョン管理と、内容アドレス指定オブジェクトデータベースの設計。"
+    },
+    {
+      "date": "2026-10-30",
+      "category": "oss",
+      "title": "OSS #003 — curl / libcurl",
+      "path": "oss/2026-10-30-curl.html",
+      "description": "multi_socket APIによるイベント駆動I/O設計。"
     }
   ]
 }
