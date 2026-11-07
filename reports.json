@@ -35,6 +35,13 @@
       "title": "OSS #004 FreeRTOS",
       "path": "oss/2026-10-30-freertos.html",
       "description": "Ready List and priority scheduling."
+    },
+    {
+      "date": "2026-11-07",
+      "category": "oss",
+      "title": "OSS #005 — Zstandard (zstd)",
+      "path": "oss/2026-11-07-zstd.html",
+      "description": "高速な可逆圧縮と、LZ77・Huffman・FSEを組み合わせた圧縮パイプライン。"
     }
   ]
 }
