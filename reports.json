@@ -42,6 +42,13 @@
       "title": "OSS #005 — Zstandard (zstd)",
       "path": "oss/2026-11-07-zstd.html",
       "description": "高速な可逆圧縮と、LZ77・Huffman・FSEを組み合わせた圧縮パイプライン。"
+    },
+    {
+      "date": "2026-11-13",
+      "category": "oss",
+      "title": "OSS #006 — musl libc",
+      "path": "oss/2026-11-13-musl.html",
+      "description": "POSIX APIとLinuxシステムコールの境界、read()のキャンセルポイント実装。"
     }
   ]
 }
