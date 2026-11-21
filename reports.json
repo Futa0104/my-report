@@ -49,6 +49,13 @@
       "title": "OSS #006 — musl libc",
       "path": "oss/2026-11-13-musl.html",
       "description": "POSIX APIとLinuxシステムコールの境界、read()のキャンセルポイント実装。"
+    },
+    {
+      "date": "2026-11-21",
+      "category": "oss",
+      "title": "OSS #007 — lwIP",
+      "path": "oss/2026-11-21-lwip.html",
+      "description": "組み込み向けTCP/IPスタックの受信経路と、pbufによるパケット管理・所有権設計。"
     }
   ]
 }
