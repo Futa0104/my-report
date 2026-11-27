@@ -2,11 +2,20 @@
 
 README.mdも参照してください。my-reportは複数カテゴリのレポート集です。
 
-## 構成と運用
+## サイト構成・仕様
 
-- トップの `index.html` は大項目（カテゴリ）の一覧です。個別記事をトップに直接並べないでください。
-- `reports.json` の `categories` 配列にカテゴリ情報（`id`, `title`, `path`, `description`）を、`reports` 配列に記事情報（`date`, `category`, `title`, `path`, `description`）を記載します。記事の `category` はカテゴリの `id` と一致させます。
-- 各カテゴリに `<category>/index.html` を置き、そのカテゴリの記事へのリンク集とします。
-- OSSの解説記事は、このチャットで依頼されたときだけ手動追加します（自動定期生成なし）。
-- 記事を追加したら `reports.json` の `reports` 配列にメタデータを追加し、該当カテゴリの `index.html` にも記事リンクを追加します。カテゴリ追加時は `reports.json` の `categories` とルート `index.html` の両方を更新します。既存記事・カテゴリの情報を消さないでください。
-- OSS記事の戻りリンクは `oss/index.html` に向けます。
+- ルートの `index.html` はカテゴリ一覧とし、個別記事は直接掲載しません。
+- 各カテゴリの `index.html`（`<category>/index.html`）は、そのカテゴリの記事一覧とします。
+- 個別記事は所属カテゴリの配下に配置し、戻りリンクはそのカテゴリの `index.html` に向けます。
+- `reports.json` でカテゴリと記事のメタデータを管理します。
+  - `categories`：カテゴリ情報（`id`, `title`, `path`, `description`）
+  - `reports`：記事情報（`date`, `category`, `title`, `path`, `description`）
+  - 記事の `category` は所属カテゴリの `id` と一致させます。
+
+## 運用
+
+- 記事の追加・更新はユーザーの依頼に応じて行います。明示的な依頼がない限り、自動定期生成は行いません。
+- カテゴリを追加する場合は、カテゴリの `index.html` を作成し、`reports.json` の `categories` とルートの `index.html` を更新します。
+- 記事を追加する場合は、記事のHTMLを作成し、`reports.json` の `reports` と所属カテゴリの `index.html` を更新します。
+- カテゴリや記事の情報を更新する場合は、関連するメタデータと一覧の整合性を維持します。
+- 既存のカテゴリ・記事は、削除の依頼がない限り維持します。
