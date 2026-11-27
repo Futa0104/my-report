@@ -10,10 +10,8 @@
 
 記事とカテゴリの一覧データは `reports.json` で管理しています。
 
-## デプロイ
-
-- `main` へのpushをきっかけに `.github/workflows/pages.yml` でGitHub Pagesへ公開します。
-
 ## メンテナンス
+
+`main` へのpushをきっかけに `.github/workflows/pages.yml` でGitHub Pagesへ公開します。
 
 記事の追加・一覧更新・公開手順など、AIエージェント向けの詳細は [AGENTS.md](AGENTS.md) を参照してください。
