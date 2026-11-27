@@ -10,5 +10,3 @@ README.mdも参照してください。my-reportは複数カテゴリのレポ�
 - OSSの解説記事は、このチャットで依頼されたときだけ手動追加します（自動定期生成なし）。
 - 記事を追加したら `reports.json` の `reports` 配列にメタデータを追加し、該当カテゴリの `index.html` にも記事リンクを追加します。カテゴリ追加時は `reports.json` の `categories` とルート `index.html` の両方を更新します。既存記事・カテゴリの情報を消さないでください。
 - OSS記事の戻りリンクは `oss/index.html` に向けます。
-- `main` へのpushをきっかけに `.github/workflows/pages.yml` でGitHub Pagesへ公開します。
-- READMEは人間とAI双方に向けた概要、AGENTS.mdはエージェントの具体的な作業手順とします。
