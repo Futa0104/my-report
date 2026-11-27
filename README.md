@@ -8,7 +8,11 @@
 - [OSS](https://futa0104.github.io/my-report/oss/)：OSS解説記事の一覧
 - 各カテゴリの配下に個別レポートのHTMLを配置
 
-記事とカテゴリの一覧データは `reports.json` で管理しています。サイトはGitHub Pagesで公開します。
+記事とカテゴリの一覧データは `reports.json` で管理しています。
+
+## デプロイ
+
+- `main` へのpushをきっかけに `.github/workflows/pages.yml` でGitHub Pagesへ公開します。
 
 ## メンテナンス
 
