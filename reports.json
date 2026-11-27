@@ -56,6 +56,13 @@
       "title": "OSS #007 — lwIP",
       "path": "oss/2026-11-21-lwip.html",
       "description": "組み込み向けTCP/IPスタックの受信経路と、pbufによるパケット管理・所有権設計。"
+    },
+    {
+      "date": "2026-11-27",
+      "category": "oss",
+      "title": "OSS #008 — littlefs",
+      "path": "oss/2026-11-27-littlefs.html",
+      "description": "組み込み向けファイルシステムの耐電源断設計と、メタデータペア・Copy-on-Write。"
     }
   ]
 }
