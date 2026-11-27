@@ -10,6 +10,10 @@
 
 記事とカテゴリの一覧データは `reports.json` で管理しています。サイトはGitHub Pagesで公開します。
 
+## デプロイ
+
+- [GitHub Pages デプロイ状況](https://github.com/Futa0104/my-report/actions/workflows/pages.yml)：実行履歴・公開状況の確認
+
 ## メンテナンス
 
 記事の追加・一覧更新・公開手順など、AIエージェント向けの詳細は [AGENTS.md](AGENTS.md) を参照してください。
